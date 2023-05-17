@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Equação 2 Grau</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="corpo">
+        <div class="valores">
+            
+            <h1>Calculadora Equação</h1>
+            <a href="https://pt.wikipedia.org/wiki/Equação_quadrática" 
+            target="_blank">Clique: ax² + bx + c = 0</a>
+            <br>
+
+            <label for="ValorA">Digite o valor de "a"</label>
+            <input type="number" name="valores" id="A" placeholder="Valor de A">
+        
+            <label for="ValorB">Digite o valor de "b"</label>
+            <input type="number" name="valores" id="B" placeholder="Valor de B">
+        
+            <label for="ValorC">Digite o valor de "c"</label>
+            <input type="number" name="valores" id="C" placeholder="Valor de C">
+        
+            <button onclick="calcular()" id="btn">Calcular</button>
+            <button onclick="limpar()" id="btn">Limpar</button>
+
+            <textarea name="resultado" id="resultado" cols="30" rows="6" placeholder="O resultado vai ser exibido aqui." readonly></textarea>
+            
+        </div>
+    </div>
+</body>
+</html>
